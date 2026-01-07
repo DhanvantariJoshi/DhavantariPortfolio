@@ -1,0 +1,30 @@
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.experience-card {
+  padding: 18px;
+  border-left: 3px solid var(--accent);
+  background: rgba(17, 24, 39, 0.5);
+  border-radius: 6px;
+}
+
+.experience-company {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.experience-role {
+  font-size: 0.9rem;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+
+.experience-card li {
+  font-size: 0.85rem;
+  color: var(--text-soft);
+  margin-bottom: 4px;
+}
